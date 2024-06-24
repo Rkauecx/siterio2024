@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+ }
+ header{
+    background-image: url(../img/sos.png);
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.card:hover{
+    transition: 0.3s;
+    transform: scale(102%);
+    
+}
+.m-2 {
+    background-color: rgb(71, 156, 253);
+    margin-bottom: 100px
+}
+
+
+.img-top{
+    width: 180px;
+    border-bottom: 2px solid black;
+}
+.figurinha{
+    margin: 0;
+}
+.collapse {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.divina{
+    left: 50vh;
+    margin-left: 100vh;
+    margin-top: 18px;
+}
+.text-decoration-none{
+    color: black;
+}
+.text-decoration-none:hover{
+    transition: 0.6s;
+    transform: scale(165%);
+}
+.navbar li a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #b4b4b4;
+    transition: .4s;
+}
+
+.navbar li a:hover::before {
+    width: 100%;
+}
+.navbar li a {
+    font-size: 17px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-top: 16px; 
+    padding-bottom: 5px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-top: 5px;
+    position: relative;
+    /* border-top-left-radius: 9px; border-top-right-radius: 9px; */
+    transition: .5s;
+}
+footer {
+    border-top: 2px solid gray;
+    gap: inherit 1px;
+}
+
+footer ul {
+    list-style: none;
+}
+ footer ul li {
+    list-style: none;
+}
+footer ul a {
+    list-style: none;
+    color: #000000;
+    opacity: 50%;
+    padding: 0;
+    margin-left: 1300px;
+    
+}
+
+footer ul .col-lg-1{
+    width: 4vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 1300px;
+    
+
+}
+
+footer figure{
+    margin: 0;
+    border-bottom: 1px #000000;
+    justify-content: left;
+    max-width: 100%;
+    width: 100vmax;
+    height: 100vmax;
+}
+
+
+.container{
+    padding: 7em;
+    unicode-bidi: isolate;
+    margin-inline-start: 14px;
+    margin-inline-end: 2700px;
+    font-size:px;
+}
+
+
+.bbb{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    
+}
+
+
+.text-center {
+    font-size: 16px;
+    color: #666;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: block;
+}
+.main{
+    padding-top: 5px;
+}
